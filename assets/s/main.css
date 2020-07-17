@@ -44,16 +44,22 @@
 }
 .social__title {
   color: #fff;
-  text-align: left;
+  text-align: center;
   margin-bottom: 20px;
+  font-family: 'Open Sans', serif;
 }
 .social__count {
   color: #fff !important;
   margin-top: 10px;
+  font-family: 'Open Sans', serif;
 }
-@media all and (max-width: 1200px) {
+@media all and (max-width: 992px) {
   .t338__title {
-    margin-bottom: 35px;
+    margin-bottom: 20px;
+  }
+  .t338__logo {
+    margin-bottom: 20px;
+    max-width: 224px;
   }
 }
 @media all and (max-width: 600px) {
@@ -73,15 +79,19 @@
     margin: 0 auto;
   }
   .social__title {
-    display: none;
+    font-size: 1em;
+    margin-bottom: 15px;
   }
   .social__count {
     display: none;
   }
   .t338__logo {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    max-width: 224px;
+    font-size: 30px;
+    line-height: 30px;
   }
   .t338__title {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
   }
 }
