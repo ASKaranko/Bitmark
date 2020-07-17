@@ -1,0 +1,87 @@
+.cell1 {
+  width: 40px;
+  background-color: #3c62af;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+}
+.cell1_viber {
+  background-color: #905eba;
+}
+.cell1_telegram {
+  background-color: #3199cd;
+}
+.cell2 {
+  width: 120px;
+  background-color: #416abe;
+  color: #fff;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.cell2_viber {
+  background-color: #9c66ca;
+}
+.cell2_telegram {
+  background-color: #35a6de;
+}
+.social table {
+  border-spacing: 0px;
+  width: 100%;
+  height: 100%;
+  background-clip: border-box;
+  box-sizing: border-box !important;
+}
+.social table:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  text-decoration: none;
+  color: #fff;
+}
+.social {
+  box-sizing: border-box !important;
+  transition: 0.2s all;
+  border-width: 0px;
+}
+.social__title {
+  color: #fff;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.social__count {
+  color: #fff !important;
+  margin-top: 10px;
+}
+@media all and (max-width: 1200px) {
+  .t338__title {
+    margin-bottom: 35px;
+  }
+}
+@media all and (max-width: 600px) {
+  .t338__buttonwrapper {
+    width: 100%;
+  }
+  .t-btn {
+    display: block;
+  }
+  .social {
+    margin-bottom: 10px;
+  }
+  .social table {
+    border-spacing: 0px;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto;
+  }
+  .social__title {
+    display: none;
+  }
+  .social__count {
+    display: none;
+  }
+  .t338__logo {
+    margin-bottom: 20px;
+  }
+  .t338__title {
+    margin-bottom: 20px;
+  }
+}
